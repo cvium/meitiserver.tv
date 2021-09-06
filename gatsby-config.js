@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "meitimedia.tv",
+    title: "Meiti Media Server",
+    siteUrl: "https://www.meitiserver.tv",
+    image: "/images/meiti-social.png",
   },
   plugins: [
     "gatsby-plugin-image",
