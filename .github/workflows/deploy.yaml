@@ -15,7 +15,8 @@ jobs:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.3.4
+      - name: Checkout files
+        uses: actions/checkout@v2.3.4
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
