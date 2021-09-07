@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Meiti Media Server",
+    description: "A free and open-source media center for media fanatics. Provide context and great metadata to all your media.",
     siteUrl: "https://www.meitiserver.tv",
     image: "/images/meiti-social.png",
   },

@@ -40,6 +40,8 @@ const SEO = ({ title, description, image, article }) => {
       )}
 
       {seo.image && <meta property="og:image" content={seo.image} />}
+      {seo.image && <meta property="og:image:width" content="1200" />}
+      {seo.image && <meta property="og:image:height" content="627" />}
 
       <meta name="twitter:card" content="summary_large_image" />
 
@@ -79,6 +81,7 @@ const query = graphql`
     site {
       siteMetadata {
         defaultTitle: title
+        defaultDescription: description
         siteUrl
         defaultImage: image
       }
