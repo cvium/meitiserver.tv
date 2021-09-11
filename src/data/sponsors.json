@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Netlify",
+    "logo": "../images/sponsors/netlify.svg",
+    "link": "https://netlify.com"
+  },
+  {
+    "name": "Sentry",
+    "logo": "../images/sponsors/sentry.svg",
+    "link": "https://sentry.io"
+  }
+]

@@ -5,7 +5,7 @@ import Icon from '@mdi/react';
 import { mdiClose, mdiMenu } from '@mdi/js';
 import { Transition } from '@headlessui/react';
 
-const Header = ({ mainClasses = 'bg-gondola-900' }) => {
+const Header = ({ transparent = false }) => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
 
   const data = useStaticQuery(graphql`
@@ -21,9 +21,7 @@ const Header = ({ mainClasses = 'bg-gondola-900' }) => {
 
   return (
     <header
-      className={`relative transition-height ${mainClasses} ${
-        isHamburgerOpen ? 'bg-gondola-900' : ''
-      } lg:flex lg:justify-center`}
+      className={`relative transition-height bg-gondola-900 lg:flex lg:justify-center`}
     >
       <nav className="lg:container">
         <div className="flex items-center justify-between h-20 lg:h-28 px-4">
@@ -31,7 +29,7 @@ const Header = ({ mainClasses = 'bg-gondola-900' }) => {
             <button
               onClick={() => setIsHamburgerOpen(!isHamburgerOpen)}
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md transition-colors text-thatch-500 hover:text-thatch-300"
+              className="inline-flex items-center justify-center p-2 rounded-md transition-colors text-thatch-100 hover:text-torch-500"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
@@ -60,7 +58,7 @@ const Header = ({ mainClasses = 'bg-gondola-900' }) => {
               <div className="ml-5 lg:ml-10 flex items-baseline gap-5">
                 {data.allMenuJson.nodes.map((item, index) => (
                   <Link
-                    className="transition-colors font-bold text-thatch-500 hover:text-thatch-300"
+                    className="transition-colors font-bold text-thatch-100 hover:text-torch-500"
                     key={item.url}
                     to={item.url}
                   >

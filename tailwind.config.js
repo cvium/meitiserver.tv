@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         torch: {
-          500: '#ff0125'
+          500: '#ff0125',
+          700: '#b6001a'
         },
         thatch: {
           100: '#fff4f0',
