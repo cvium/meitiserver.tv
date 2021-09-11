@@ -6,6 +6,7 @@ module.exports = {
     image: "/images/meiti-social.png",
   },
   plugins: [
+    "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
