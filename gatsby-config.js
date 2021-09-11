@@ -18,6 +18,7 @@ module.exports = {
     },
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-netlify-cms",
     "gatsby-transformer-sharp",
     "gatsby-transformer-json",
     {
