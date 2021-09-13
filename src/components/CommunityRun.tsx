@@ -25,7 +25,7 @@ const CommunityRun = () => {
             </div>
           </div>
           <div className="p-4 order-2 lg:order-1 text-torch-700">
-            <Icon className="lg:ml-36 lg:mr-4 mdi-icon" size={16} path={mdiAccountGroup} />
+            <Icon className="lg:ml-36 lg:mr-4 lg:max-w-7xl mdi-icon" size={16} path={mdiAccountGroup} />
           </div>
         </div>
       </div>
