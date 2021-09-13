@@ -8,7 +8,7 @@ const UltimateMediaServer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-6 mx-4 lg:mx-24 lg:flex-grow-0">
           <div className="p-4 order-1 lg:order-2 text-torch-700">
-            <Icon className="lg:ml-4" size={16} path={mdiServer} />
+            <Icon className="lg:ml-4 mdi-icon" size={16} path={mdiServer} />
           </div>
           <div className="order-2 lg:order-1 lg:max-w-7xl lg:ml-48 flex flex-col items-start justify-center">
             <h2 className="font-black text-5xl mb-6">

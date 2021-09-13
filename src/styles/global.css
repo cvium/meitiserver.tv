@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Until https://github.com/levrik/mdi-react/issues/83 has been fixed this seems necessary */
+.mdi-icon {
+    max-width: 100%;
+}
